@@ -9,8 +9,6 @@ function App() {
   return  <Router>
             <MainNavigation/>
             <main>
-
-            
             <Switch>
                <Route path="/" exact>
                  <User/>
@@ -20,7 +18,7 @@ function App() {
                </Route>
                <Redirect to="/"/>
             </Switch>
-            </main>
+            </main> 
           </Router>;
 
 }
